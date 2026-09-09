@@ -1,6 +1,7 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
   "framework": null,
+  "outputDirectory": ".",
   "redirects": [
     {
       "source": "/public/materiais/atlas-visual-do-pizzaiolo.pdf",
