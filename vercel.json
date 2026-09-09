@@ -1,6 +1,33 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
   "framework": null,
+  "redirects": [
+    {
+      "source": "/public/materiais/atlas-visual-do-pizzaiolo.pdf",
+      "destination": "https://media.githubusercontent.com/media/GustavoFalcone/entregavelpizza/main/public/materiais/atlas-visual-do-pizzaiolo.pdf",
+      "permanent": false
+    },
+    {
+      "source": "/public/materiais/manual-pre-preparo.pdf",
+      "destination": "https://media.githubusercontent.com/media/GustavoFalcone/entregavelpizza/main/public/materiais/manual-pre-preparo.pdf",
+      "permanent": false
+    },
+    {
+      "source": "/public/materiais/guia-porcionamento-distribuicao.pdf",
+      "destination": "https://media.githubusercontent.com/media/GustavoFalcone/entregavelpizza/main/public/materiais/guia-porcionamento-distribuicao.pdf",
+      "permanent": false
+    },
+    {
+      "source": "/public/materiais/30-desafios-visuais-pizzaiolo.pdf",
+      "destination": "https://media.githubusercontent.com/media/GustavoFalcone/entregavelpizza/main/public/materiais/30-desafios-visuais-pizzaiolo.pdf",
+      "permanent": false
+    },
+    {
+      "source": "/public/materiais/certificado-conclusao.pdf",
+      "destination": "https://media.githubusercontent.com/media/GustavoFalcone/entregavelpizza/main/public/materiais/certificado-conclusao.pdf",
+      "permanent": false
+    }
+  ],
   "rewrites": [
     {
       "source": "/",
